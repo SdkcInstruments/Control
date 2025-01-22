@@ -3,6 +3,9 @@
 
 Expressionペダルの接続に対応しており、Eurorackシステムでの演奏に足を使った操作を加えることができます。
 
+<img src="img/ControlPanel.png" width="20%">   
+
+
 # Diagram
 <img src="img/diagram.jpg" width="100%">    
 
@@ -40,8 +43,11 @@ OffsetとAttenuverterノブにはセンタークリックがありますが、�
 Width : 8HP  
 Max Depth: 30mm  
 Maximum current draw:
-* xmA @12V
-* xmA @-12V
+* 82mA @12V
+* 72mA @-12V
+
+
+<a href="https://modulargrid.net/e/sdkc-instruments-control">Modular Grid</a>
 
 # Warranty
 

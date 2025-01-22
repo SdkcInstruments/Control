@@ -3,6 +3,9 @@
 
 It supports the connection of an **Expression pedal**, enabling foot-operated performance within a Eurorack system.
 
+<img src="img/ControlPanel.png" width="20%">   
+
+
 # Diagram
 <img src="img/diagram.jpg" width="100%">    
 
@@ -35,13 +38,15 @@ Both the Offset and Attenuverter knobs feature center detents; however, due to t
 
 # Compatible Devices
 - M-Audio EX-P
-
+ 
 # Specification
 Width : 8HP  
 Max Depth: 30mm  
 Maximum current draw:
-* xmA @12V
-* xmA @-12V
+* 82mA @12V
+* 71mA @-12V
+
+<a href="https://modulargrid.net/e/sdkc-instruments-control">Modular Grid</a>
 
 #  Warranty
 
