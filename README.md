@@ -2,8 +2,9 @@
 **Control**is a 4 channels of Offset/Attenuverter.
 
 It supports the connection of an **Expression pedal**, enabling foot-operated performance within a Eurorack system.
-
+<div align="center">
 <img src="img/ControlSquare.jpg" width="50%">   
+</div>
 
 
 # Diagram
