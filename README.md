@@ -3,7 +3,7 @@
 
 It supports the connection of an **Expression pedal**, enabling foot-operated performance within a Eurorack system.
 
-<img src="img/ControlSquare.jpg" width="100%">   
+<img src="img/ControlSquare.jpg" width="80%">   
 
 
 # Diagram
