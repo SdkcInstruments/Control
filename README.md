@@ -1,44 +1,62 @@
 # Control
-Control is a 1:4 Demultiplexer consisting of four Offset/Attenuverters.
+**Control**is a 4 channels of Offset/Attenuverter.
 
-In addition to the usual CV inputs, you can use an expression pedal, adding an important element of foot control to your Eurorack performance.
-
-When there is no input to the CV inputs of each channel, the Master Knob and Expedal In inputs are internally connected to all channels. When a cable is connected to the CV input of Ch2 or later, the internal connection is cut at that point and continues to operate similarly thereafter.
-
-Example: If external CV is input to Ch3, the Master Knob and EXPin CV are connected to Ch1 and Ch2, and the CV input to Ch3 is connected to Ch3 and Ch4.
+It supports the connection of an **Expression pedal**, enabling foot-operated performance within a Eurorack system.
 
 # Diagram
 <img src="img/diagram.jpg" width="100%">    
 
-</br>
+If no cables are connected to the CV input of each channel, the signal from the Master Knob and EXP Pedal In will be applied to all channels. However, if an external CV is connected to Ch2 or later channels, the external CV will override the internal connection starting from that point.
 
-# Control's Controls
+Example:
+If an external CV is connected to the input of Ch3, the Master Knob and EXP Pedal In signals will be applied to Ch1 and Ch2, while the CV connected to Ch3 will be applied to Ch3 and Ch4.
+
+
+# Control's controls
 ### Master Knob
-Controls 0V-8V CV. This input is internally connected to all knobs in the default state.
+Sets an offset of 0V to 8V. This signal is shared across all channels if no cables are connected to inputs 2 and beyond.
 
 ### EXP in
-You can connect an expression pedal commonly used with guitars. It outputs 0V-8V.   
-Control supports TRS-connected control pedals, commonly used, with the following polarities switchable via the switch on the back.
+An expression pedal, such as those used with guitar effects, can be connected. It outputs 0V to 8V.
+Supports standard TRS-connected expression pedals and allows polarity switching via the rear switch for the following configurations:
 
-CW-Sleeve / Wiper-Tip / CCW-Ring
-CW-Sleeve / Wiper-Ring / CCW-Tip
-### Attenuverter
-Amplifies the input signal by *-1 to *1.
+・CW-Sleeve / Wiper-Tip / CCW-Ring  
+・CW-Sleeve / Wiper-Ring / CCW-Tip
+
+The module was developed using the M-AUDIO EX-P.
+
+### Attenuverner  
+Amplifies or attenuates the input signal within a range of -1x to +1x.
 
 ### Offset
-Adds an offset voltage of -8V to 8V.
+Adds an offset voltage of -8V to +8V.
 
-Both the Offset and Attenuverter knobs have a center click, but because analog circuits are used, they do not necessarily zero at the center.
+Both the Offset and Attenuverter knobs feature center detents; however, due to the nature of the analog circuitry, the center position does not guarantee an exact zero.
+
+# Compatible Devices
+- M-Audio EX-P
 
 # Specification
 Width : 8HP  
 Max Depth: 30mm  
 Maximum current draw:
-* xmA @12V
-* xmA @-12V
+* 0mA @12V
+* 0mA @-12V
+
+#  Warranty
+
+Sdkc Instruments provides a one-year warranty for this product, ensuring it is free from defects in materials and construction from the date of purchase (proof of purchase/invoice required).
+
+Malfunctions caused by incorrect power supply voltages, backward or reversed Eurorack bus board cable connections, misuse of the product, removing knobs, changing faceplates, unauthorized modifications (including unofficial firmware updates), or any other causes determined by Sdkc Instruments to be the fault of the user are not covered by this warranty, and normal service rates will apply.
+
+Damage caused by exposure to extreme environmental conditions (such as excessive heat, moisture, or humidity) is also not covered by this warranty.
+
+For warranty service, please contact the retailer where you purchased the product. In the case of a defect covered by this warranty, Sdkc Instruments will repair or replace the product. 
+
+Sdkc Instruments shall not be liable for any injury to persons or damage to property resulting from the use or misuse of this product. For any questions, please contact sdkc.store[a]gmail.com or your dealer.
 
 
 # Contact
-下記のアドレスにご連絡ください。[a]を@に置き換えてください。
+Please contact support at the following address. Replace "a" with "@" in the address.
 
 sdkc.store[a]gmail.com
