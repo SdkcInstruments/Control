@@ -3,7 +3,7 @@
 
 Expressionペダルの接続に対応しており、Eurorackシステムでの演奏に足を使った操作を加えることができます。
 
-<img src="img/ControlPanel.png" width="20%">   
+<img src="img/ControlSquare.jpg" width="100%">   
 
 
 # Diagram
