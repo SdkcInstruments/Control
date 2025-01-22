@@ -40,8 +40,8 @@ OffsetとAttenuverterノブにはセンタークリックがありますが、�
 Width : 8HP  
 Max Depth: 30mm  
 Maximum current draw:
-* 0mA @12V
-* 0mA @-12V
+* xmA @12V
+* xmA @-12V
 
 # Warranty
 
