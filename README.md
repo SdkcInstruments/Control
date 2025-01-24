@@ -27,6 +27,9 @@ Supports standard TRS-connected expression pedals and allows polarity switching 
 ・CW-Sleeve / Wiper-Tip / CCW-Ring  
 ・CW-Sleeve / Wiper-Ring / CCW-Tip
 
+Note: The polarity of the stereo jack may vary depending on the production lot. If it does not function properly, please toggle the switch to reverse the polarity.
+All versions support switching between the configurations above, so this will not affect usage
+
 The module was developed using the M-AUDIO EX-P.
 
 ### Attenuverner  
