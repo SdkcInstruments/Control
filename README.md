@@ -40,7 +40,7 @@ Adds an offset voltage of -8V to +8V.
 
 Both the Offset and Attenuverter knobs feature center detents; however, due to the nature of the analog circuitry, the center position does not guarantee an exact zero.
 
-# Compatible Devices
+# Compatible Devices (More to be added)
 - M-Audio EX-P
  
 # Specification
